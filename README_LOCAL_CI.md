@@ -3,6 +3,7 @@
 概要
 - このリポジトリは GitHub Actions で `zmkfirmware/zmk` の再利用ワークフローを使っています。
 - `act` はローカルで GitHub Actions ワークフローを実行するツールですが、リモートの reusable workflow を自動で取り込めないため、リモートファイルをローカルにダウンロードして参照先を置き換える補助スクリプトを用意しました。
+- `build-local.yml` はローカル専用で、GitHub に push しないよう `.gitignore` に追加されています。
 
 準備
 1. Docker を起動してください（Docker Desktop for Mac 等）。
