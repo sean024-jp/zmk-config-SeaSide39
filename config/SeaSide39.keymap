@@ -56,10 +56,10 @@
 
         SYMBOL {
             bindings = <
-&kp PRCNT             &kp DOLLAR  &kp AMPERSAND  &kp CARET        &kp FSLH                             &kp BSLH        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN
-&kp AT                &kp HASH    &kp ASTERISK   &kp PLUS         &kp EQUAL                            &kp UNDERSCORE  &mkp MB1              &mkp MB2               &mkp MB3       &kp SEMICOLON
-&mt LEFT_SHIFT GRAVE  &kp TILDE   &kp MINUS      &kp EXCLAMATION  &kp QUESTION                         &kp PIPE        &kp LBKT              &kp RBKT               &kp SQT        &kp DOUBLE_QUOTES
-&kp LC(TAB)           &trans      &trans         &trans           &trans        &trans      &kp COMMA  &kp PERIOD                                                                  &kp ESC
+&kp PRCNT             &kp DOLLAR  &kp AMPERSAND  &kp CARET        &kp FSLH                                          &kp BSLH        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN
+&kp AT                &kp HASH    &kp ASTERISK   &kp PLUS         &kp EQUAL                                         &kp UNDERSCORE  &mkp MB1              &mkp MB2               &mkp MB3       &kp SEMICOLON
+&mt LEFT_SHIFT GRAVE  &kp TILDE   &kp MINUS      &kp EXCLAMATION  &kp QUESTION                                      &kp PIPE        &kp LBKT              &kp RBKT               &kp SQT        &kp DOUBLE_QUOTES
+&kp LC(TAB)           &trans      &trans         &trans           &trans        &trans      &mt RIGHT_SHIFT DELETE  &trans                                                                      &kp ESC
             >;
         };
 
@@ -94,10 +94,10 @@
 
         SCROLL {
             bindings = <
-&trans  &kp F7  &kp F8  &kp F9  &kp F10                      &trans  &trans        &trans        &trans        &trans
-&trans  &kp F4  &kp F5  &kp F6  &kp F11                      &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans
-&trans  &kp F1  &kp F2  &kp F3  &kp F12                      &trans  &trans        &trans        &trans        &trans
-&trans  &trans  &trans  &trans  &trans   &trans      &trans  &trans                                            &bt BT_CLR
+&trans                    &kp F7  &kp F8  &kp F9  &kp F10                      &trans  &trans        &trans        &trans        &trans
+&trans                    &kp F4  &kp F5  &kp F6  &kp F11                      &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans
+&trans                    &kp F1  &kp F2  &kp F3  &kp F12                      &trans  &trans        &trans        &trans        &trans
+&kp RS(RC(RG(NUMBER_4)))  &trans  &trans  &trans  &trans   &trans      &trans  &trans                                            &bt BT_CLR
             >;
         };
 
